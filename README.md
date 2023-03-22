@@ -11,13 +11,15 @@ We propose TiG-BEV, a learning scheme of Target Inner-Geometry from the LiDAR mo
 
 
 ## Main Results
+| Method | mAP      | NDS     | 
+|--------|----------|---------|
+| [**TiG-BEV-R50**](configs/tig_bev/tig_bev-r50.py)  | 33.8     | 37.5     |
+| [**TiG-BEV4D-R50**](configs/tig_bev/tig_bev4d-r50.py) | 36.6     | 46.1    | 
+| [**TiG-BEV4D-R101-CBGS**](configs/tig_bev/tig_bev4d-r101-CBGS.py) | 44.0   | 54.4   |
+
 | Method | mAP      | NDS     |  Model | Log
 |--------|----------|---------|--------|-------
-| [**TiG-BEV-R50**](configs/tig_bev/tig_bev-r50.py)  | 33.8     | 37.5     | -  | - 
-| [**TiG-BEV4D-R50**](configs/tig_bev/tig_bev4d-r50.py) | 36.6     | 46.1    | -  | -
 | [**TiG-BEV4D-R101-CBGS**](configs/tig_bev/tig_bev4d-r101-CBGS.py) | 44.0   | 54.4   |-  | - 
-
-
 
 
 ## Get Started
