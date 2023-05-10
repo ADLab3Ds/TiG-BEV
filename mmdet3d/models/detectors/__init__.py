@@ -14,12 +14,12 @@ from .single_stage_mono3d import SingleStageMono3DDetector
 from .ssd3dnet import SSD3DNet
 from .votenet import VoteNet
 from .voxelnet import VoxelNet
-from .bevdet import BEVDet, BEVDetSequential
+#from .bevdet import BEVDet, BEVDetSequential
 from .tig_bev import TiG_BEV
 from .tig_bev4d import TiG_BEV4D
 __all__ = [
     'Base3DDetector', 'VoxelNet', 'DynamicVoxelNet', 'MVXTwoStageDetector',
     'DynamicMVXFasterRCNN', 'MVXFasterRCNN', 'PartA2', 'VoteNet', 'H3DNet',
     'CenterPoint', 'SSD3DNet', 'ImVoteNet', 'SingleStageMono3DDetector',
-    'FCOSMono3D', 'ImVoxelNet', 'GroupFree3DNet', 'BEVDet','TiG_BEV','TiG_BEV4D','BEVDetSequential'
+    'FCOSMono3D', 'ImVoxelNet', 'GroupFree3DNet', 'TiG_BEV','TiG_BEV4D'
 ]
